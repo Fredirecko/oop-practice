@@ -1,0 +1,14 @@
+Applications of OOP:
+programming paradigm used to solve problems. Break down a problem into real world object.  Abstract representation of real world objects that are in the program (i.e. car, bank, patient in hospital). Common topic in interviews. Applications - data science, app development, game development. Used in android/iOS app development.
+
+Advantages of OOP:
+Resusability - ability to create instances of classes any number of times (reusing), Maintainability - if you make a change in one object it should not have a great affect on all the other objects thus maintaining order, Easier testing/debugging - ability to find bugs based on a coherent and logical framework, extensibility - , improved design, modularity
+
+Popular languages that support OOP:
+python, java, php, c++, c#, kotlin, ruby
+
+
+
+
+
+
