@@ -7,6 +7,16 @@ Resusability - ability to create instances of classes any number of times (reusi
 Popular languages that support OOP:
 python, java, php, c++, c#, kotlin, ruby
 
+Instance:
+Instances are objects made from classes. classes act like blueprints. They define categories.  Instances are concrete objects taht are created from the blueprints (classes). If one instance is changed it will not affect the other instance attributes. __init__ is a reserved method and known as a class constructor. It's executed when an instance is created. It initilizes the instance attributes. 
+
+self parameter:
+assigns the instance attribute to the instance that is being created (its self). self is used by convention.
+
+class attributes:
+
+
+
 
 
 
