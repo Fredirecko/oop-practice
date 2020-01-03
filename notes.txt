@@ -14,7 +14,7 @@ self parameter:
 assigns the instance attribute to the instance that is being created (its self). self is used by convention.
 
 class attributes:
-
+Belong to the class and are shared by all the instances. Changing them affects all the instances. Class attributes are usually located before the init method in the class.
 
 
 
