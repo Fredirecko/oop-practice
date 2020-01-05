@@ -16,6 +16,18 @@ assigns the instance attribute to the instance that is being created (its self).
 class attributes:
 Belong to the class and are shared by all the instances. Changing them affects all the instances. Class attributes are usually located before the init method in the class.
 
+Encapsulation:
+Bundling of data and methods that act on that data into a single unit called a class. Selectively restrict access to those elements. Protect data as much as possible and restrict access.  
+
+Abstraction:
+The interface should be independent of the implementation.  Interface - user's view. Implementation - Developer's view.  Abstracting out common parts of the code to avoid repetition.
+
+Publice attributes vs Private Attributes:
+Private attributes use underscores: _private and __more_private (two underscores is more private)
+
+Name Mangling:
+When you add a double leading underscore to an attribute you trigger name mangling. You can still acces the attribute but you just need to add the class name with one leading underscore followed by two leading underscores and the attribute name.
+
 
 
 
