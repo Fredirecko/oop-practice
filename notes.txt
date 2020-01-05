@@ -28,6 +28,85 @@ Private attributes use underscores: _private and __more_private (two underscores
 Name Mangling:
 When you add a double leading underscore to an attribute you trigger name mangling. You can still acces the attribute but you just need to add the class name with one leading underscore followed by two leading underscores and the attribute name.
 
+Getters and Setters:
+Members of a class (Methods). There purpose is to get and set the value of an instance attribute. They protect data by providing an indirect way to access and modify it. 
+
+Getters: 
+Access the attribute indirectly. ex: def get_name(self):. get_ + attribute. dog1.get_name().
+
+Setters:
+Modify an attribute indirectly. set_ + attribute name.  set_name, set_address, set_age. 
+
+Properties:
+The pythonic way to use getters and setters
+
+Property Decorator: Example below using a class House. This illustrates using the @property decorator and setting up the getter and setter.
+
+
+class House:
+	def __init__(self,price):
+		self._price = price
+	@property
+	def price(self):
+		print("Getter")
+		return self._price
+	@price.setter
+	def price(self, new_price):
+		print("Setter")
+		if new_price >0:
+			self._price = new_price
+		else:
+			print("Please enter a valid price")
+            
+Three methods for using @property:
+
+This is the getter:
+class Bus:
+ 
+	def __init__(self, color):
+		self._color = color
+ 
+	@property
+	def color(self):
+		return self._color
+        
+This is the setter:
+
+class Bus:
+ 
+	def __init__(self, color):
+		self._color = color
+ 
+	@property
+	def color(self):
+		return self._color
+ 
+	@color.setter
+	def color(self, new_color):
+		self._color = new_color
+        
+This is the deleter: 
+
+class Bus:
+ 
+	def __init__(self, color):
+		self._color = color
+ 
+	@property
+	def color(self):
+		return self._color
+ 
+	@color.setter
+	def color(self, new_color):
+		self._color = new_color
+ 
+	@color.deleter
+	def color(self):
+		del self._color
+
+
+
+
 
 
 
