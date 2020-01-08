@@ -103,6 +103,13 @@ class Bus:
 	@color.deleter
 	def color(self):
 		del self._color
+        
+Methods:
+Methods = actions within a class.  Closely related to instances. How an object can execute operations and interact with its data. 
+The instances access the methods from the class. Method names include verbs since they perform actions.
+general syntax: def method_name(self, parameters):
+                #body of method
+ 
 
 
 
