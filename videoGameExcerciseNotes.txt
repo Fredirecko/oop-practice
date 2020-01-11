@@ -1,0 +1,54 @@
+Classes: Player
+
+Attributes-Class: player_lives = 10
+
+Attributes-Instance: 
+
+Methods: move - must be able to move up, down, left and right. Movement boundries (0,450), create_character - param.(name)
+
+
+Classes: Shoot
+
+Attributes-Class: 
+
+Attributes-Instance: bullet_speed - between (5,45)
+
+Methods: player_shoot, enemy_shoot, bullet - candy bullet moves horizontally or vertically, is_beyond_boundaries
+
+
+
+Classes: Enemy
+
+Attributes-Class: enemy_lives = 15
+
+Attributes-Instance: 
+
+Methods: new_enemy - randomly generates enemy with coordinates (0,450), enemy_moves - fixed movement direction, if hits end of screen enemy changes axis (i.e. vertical -> horizontal). 
+
+
+
+Classes: Game
+
+Attributes-Class:
+
+Attributes-Instance: game_difficulty - the harder the difficulty the faster the enemies
+
+Methods: game_starts - prints welcome_message when game begins
+
+
+
+Classes: Damage
+
+Attributes-Class:
+
+Attributes-Instance: 
+
+Methods: collision_damage - when enemies collide with player the player is damaged by 1 life, bullet_damage - when bullets hit enemies the enemies lose 1 life
+
+
+
+
+
+
+
+
