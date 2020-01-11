@@ -37,11 +37,14 @@ class MusicSchool:
             print(self.students)
         
     def export_student_list(self):
+        """method that exports the list of student names to a txt file"""
+        
         with open('studentList.txt', 'w') as f:
             print(self.students, file=f)
             
-            
-            
+test = MusicSchool(100, "All day", 10000)
+test.add_student("Joe", 9, "111-111-1111", "Hockey, Chess")
+test.export_student_list()
             
             
             
