@@ -1,0 +1,15 @@
+You are asked to design an App to keep track of students’ TODOs and Classes
+
+This is the description provided by the client:
+
+The user will be able to create a TODO and assign a description, due date, and priority. Optionally, the user can assign a classroom and a class to the TODO if it is related to academic activities.
+
+TODOs can be classified as: Personal, Academic, Work, or Leisure.
+
+The three possible priorities are: Urgent, Intermediate, and Optional.
+
+TODOs should be removed when the user indicates that it was completed.
+
+Additionally, the app should include a tracker of the classes that the student is taking at a college or high school.
+
+Each class has a class code, a professor, a start time, end time, and classroom assigned.
